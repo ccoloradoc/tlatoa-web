@@ -43,6 +43,8 @@ public class User extends AbstractTimestampEntity implements Serializable {
 	private String email;
 	@Column(name="PROFILE_PICTURE_URL")
 	private String profilePictureUrl;
+	@Column(name="PASSWORD")
+	private String password;
 	
 	@ManyToMany(fetch = FetchType.EAGER, cascade = {CascadeType.REFRESH, CascadeType.REMOVE})
 	@JoinTable(name = "krrt_access_level", joinColumns = { 
@@ -196,5 +198,11 @@ public class User extends AbstractTimestampEntity implements Serializable {
 	 */
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 }

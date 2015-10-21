@@ -11,38 +11,13 @@
     <title>Tlatoa</title>
     
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-	<jsp:include page="WEB-INF/jsp/include/head_include.jsp" />
+	<jsp:include page="./include/head_include.jsp" />
 
 </head>
 
 <body>
 	<div class="wrapper">
-    <jsp:include page="WEB-INF/jsp/include/header.jsp" />
-
-    <!-- Header -->
-    <div class="intro-header">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <img src="./resources/img/logo.png">
-                        <h1 style="font-family: danube; font-size: 50px; margin-top: 10px;">Tlatoa</h1>
-                        <h2>Aprende, comparte, sueña</h2>
-                        <h3>Tlatoa es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva.</h3>
-                        <hr class="intro-divider">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-        
-        <div class="intro-header-overlay"></div>
-
-    </div>
-    <!-- /.intro-header -->
+    <jsp:include page="./include/header.jsp" />
 
     <!-- Page Content -->
 
@@ -188,8 +163,8 @@
     </div> -->
     <!-- /.banner -->
 
-	<jsp:include page="WEB-INF/jsp/include/footer.jsp" />
-    <jsp:include page="WEB-INF/jsp/include/footer_include.jsp" />
+	<jsp:include page="./include/footer.jsp" />
+    <jsp:include page="./include/footer_include.jsp" />
     </div>
 </body>
 

@@ -30,7 +30,7 @@
 					                <td>${resource.sequenceOrder}</td>
 					                <td>
 					                	<ol class="breadcrumb">
-										  <li><a href="${baseURL}/manager/sentence/${sentenceId}/resource/${resource.resourceId}/delete">Remove</a></li>
+										  <li><a href="<c:url value="/manager/sentence/${sentenceId}/resource/${resource.resourceId}/delete"/>">Remove</a></li>
 										</ol>
 					                </td>
 					            </tr>

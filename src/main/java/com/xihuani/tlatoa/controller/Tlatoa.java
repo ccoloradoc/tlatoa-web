@@ -18,9 +18,15 @@ import com.xihuani.tlatoa.service.ResourceService;
 import com.xihuani.web.common.ControllerUtil;
 
 @Controller
+@RequestMapping("/manager")
 public class Tlatoa {
 	@Autowired
 	public ResourceService resourceService;
+	
+	@RequestMapping("/")
+	public String home(Map<String, Object> map) {
+		return ControllerUtil.redirect(Constants.View.TLATOA_HOME);
+	}
 	
 	@RequestMapping(value = "/sentence", method = RequestMethod.GET)
 	public String listSentences(Map<String, Object> map) {

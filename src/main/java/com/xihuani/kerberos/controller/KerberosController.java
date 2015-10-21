@@ -25,6 +25,7 @@ import com.xihuani.kerberos.service.SystemService;
 import com.xihuani.kerberos.service.UserService;
 
 @Controller
+@RequestMapping("/kerberos")
 public class KerberosController {
 	@Autowired
 	private SystemService systemService;
@@ -41,6 +42,20 @@ public class KerberosController {
 	
 	@RequestMapping("/")
 	public String home(Map<String, Object> map) {
+		return "redirect:" + Constants.View.KERBEROS_SYSTEM;
+	}
+	
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+    public String register(Map<String, Object> map) {
+		
+		map.put("user", new User());
+		return Constants.View.KERBEROS_REGISTER_JSP;
+    }
+	
+	@RequestMapping(value = "/register", method = RequestMethod.POST)
+	public String registerUser(@ModelAttribute("user") User user, BindingResult result) {
+		user.setRoles(new HashSet<Role>(roleService.getRoleList()));
+		userService.addUser(user);
 		return "redirect:" + Constants.View.KERBEROS_SYSTEM;
 	}
 	

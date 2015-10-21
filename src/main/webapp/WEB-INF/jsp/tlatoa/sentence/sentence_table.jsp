@@ -27,7 +27,8 @@
 					                <td>${sentence.sentence}</td>
 					                <td>
 					                	<ol class="breadcrumb">
-										  <li><a href="${baseURL}/manager/sentence/${sentence.sentenceId}/resource">Resource</a></li>
+					                		<c:url var="url" value="/manager/sentence/${sentence.sentenceId}/resource"/>
+										  <li><a href="${url}">Resource</a></li>
 										</ol>
 					                </td>
 					                <td>

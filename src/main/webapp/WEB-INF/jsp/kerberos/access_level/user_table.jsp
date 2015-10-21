@@ -40,13 +40,15 @@
 					                			<input type="hidden" class="role" name="roleId" value="${role.id}"/>
 					                	 	</c:forEach>
 					                	 </c:if>
-					                	 <input type="hidden" id="target" name="target" value="${baseURL}/kerberos/system/${systemId}/access_level/${user.id}"/>
+					                	 <c:url var="url" value="/kerberos/system/${systemId}/access_level/${user.id}"/>
+					                	 <input type="hidden" id="target" name="target" value="${url}"/>
 				                		 <input type="button" class="btn btn-warning editButton" value="Edit"/>
 					                </td>
 					            </tr>
 					        </c:forEach>
 				        </tbody>
 				    </table>
+				    <p class="back"><a href="<c:url value="/kerberos/system"/>">Go back</a></p>
 				</div>
 		</div>
 	</div>

@@ -4,7 +4,8 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<form:form method="post" action="${baseURL}/manager/sentence" commandName="sentence" class="form-horizontal" role="form">
+<c:url var="url" value="/manager/sentence"/>
+<form:form method="post" action="${url}" commandName="sentence" class="form-horizontal" role="form">
 	<div class="modal fade" id="sentenceModal" tabindex="-1" role="dialog" aria-labelledby=systemModalLabel" aria-hidden="true">
 	    <div class="modal-dialog">
 	      <div class="modal-content">

@@ -8,9 +8,10 @@
 	<div class="row">
 	 	<div class="panel panel-default">
 	  			<div class="panel-heading">
-	  				<h3 class="panel-title">Roles</h3>
+	  				<h3 class="panel-title">Roles Administration</h3>
 				</div>
 	  			<div class="panel-body">
+	  				<p>Here you add any roles for systems managed</p>
 				    <table class="table table-bordered table-striped">
 				        <thead>
 					        <tr>
@@ -29,6 +30,7 @@
 					        </c:forEach>
 				        </tbody>
 				    </table>
+				    <p class="back"><a href="<c:url value="/kerberos/system"/>">Go back</a></p>
 				</div>
 		</div>
 	</div>

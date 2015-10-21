@@ -24,15 +24,18 @@
 
 	<div class="container content-form">
 
-      <form action="<c:url value="/j_spring_security_check" />" class="form-signin" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+      <form action="<c:url value="/kerberos/register" />" class="form-signin" method="post">
+        <h2 class="form-signin-heading">Please provide your information</h2>
+        <label for="inputName" class="sr-only">Email address</label>
+        <input id="name" name="name" class="form-control" placeholder="Username" required="" autofocus="" type="text">
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input id="name" name="name" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+        <input id="email" name="email" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
         <label for="inputPassword" class="sr-only">Password</label>
         <input id="passwrod" name="password" class="form-control" placeholder="Password" required="" type="password">
         <div class="checkbox">
           <label>
-            <p class="small">You do not have an account? Get an account <a href="<c:url value="/kerberos/register" />">here</a>.</p>
+            <p class="small">You already have an account? Login <a href="<c:url value="/kerberos/login" />">here</a>.</p>
+	    	<p  class="small">By clicking the button below, you agree to Tlatoa's <a target="_blank" href="<c:url value="/terms" />">terms of service</a>.</p>
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>

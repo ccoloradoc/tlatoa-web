@@ -13,7 +13,7 @@ import com.xihuani.tlatoa.model.Sentence;
 import com.xihuani.tlatoa.service.ResourceService;
 
 @Controller
-@RequestMapping("api")
+@RequestMapping("manager/api")
 public class TlatoaAPI {
 	
 	@Autowired

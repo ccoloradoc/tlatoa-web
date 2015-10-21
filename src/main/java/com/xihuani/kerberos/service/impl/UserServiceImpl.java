@@ -4,7 +4,11 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.ParameterExpression;
+import javax.persistence.criteria.Root;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -51,6 +55,21 @@ public class UserServiceImpl implements UserService {
 	@Transactional
 	public void save(User user) {
 		em.merge(user);
+	}
+	
+	@SuppressWarnings("unchecked")
+	@Transactional
+	public User findByEmail(String email) {
+		CriteriaBuilder cb = em.getCriteriaBuilder();
+		CriteriaQuery<User> criteria = cb.createQuery( User.class );
+		Root<User> personRoot = criteria.from( User.class );
+		criteria.select( personRoot );
+		ParameterExpression<String> emailParam = cb.parameter( String.class );
+		criteria.where( cb.equal( personRoot.get( "email" ), emailParam ) );
+		TypedQuery<User> query = em.createQuery( criteria );
+		query.setParameter( emailParam, email );
+		List<User> userList = query.getResultList();
+		return userList.size() > 0 ? userList.get(0) : null;
 	}
 
 }

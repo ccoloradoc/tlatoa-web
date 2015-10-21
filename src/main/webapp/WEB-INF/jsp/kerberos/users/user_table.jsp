@@ -30,7 +30,7 @@
 					                <td>${user.gender}</td>
 					                <td>${user.email}</td>
 					                <td>${user.locationName}</td>
-					                <td><form action="user/${user.id}/delete" method="post"><input type="submit" class="btn btn-danger btn-mini" value="Delete"/></form></td>
+					                <td><form action="<c:url value="/kerberos/user/${user.id}/delete" />" method="post"><input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /><input type="submit" class="btn btn-danger btn-mini" value="Delete"/></form></td>
 					            </tr>
 					        </c:forEach>
 				        </tbody>

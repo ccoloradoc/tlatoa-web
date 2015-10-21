@@ -10,7 +10,8 @@
 	  				<h3 class="panel-title">Search</h3>
 				</div>
 	  			<div class="panel-body">
-	  				<form:form method="get" action="access_level" class="form-inline" role="form">
+	  				<c:url var="url" value="/kerberos/access_level_search"/>
+	  				<form:form method="get" action="${url}" class="form-inline" role="form">
 	  					<div class="form-group">
 						  	<label class="sr-only" for="exampleInputEmail2">Name: </label>
     						<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" value="${name}"/>

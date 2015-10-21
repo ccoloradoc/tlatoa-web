@@ -4,9 +4,9 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+	<c:url var="url" value="/kerberos/system/${systemId}/access_level/${userId}"/>
 	<div class="modal fade" id="accessLevelModal" tabindex="-1" role="dialog" aria-labelledby="accessLevelModalLabel" aria-hidden="true">
-		<form method="post" id="roleEditForm" action="${baseURL}/kerberos/system/${systemId}/access_level/${userId}" class="form-horizontal" role="form">
+		<form:form method="post" id="roleEditForm" action="${url}" class="form-horizontal" role="form">
 		    <div class="modal-dialog">
 		      <div class="modal-content">
 		        <div class="modal-header">
@@ -14,9 +14,7 @@
 		          <h4 class="modal-title">Roles</h4>
 		        </div>
 		        <div class="modal-body">
-		        	
-		          		<%@include file="access_level_form.jsp" %>
-		          	
+		          	<%@include file="access_level_form.jsp" %>		          	
 		        </div>
 		        <div class="modal-footer">
 		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -24,5 +22,5 @@
 		        </div>
 		      </div><!-- /.modal-content -->
 		    </div><!-- /.modal-dialog -->
-	    </form>
+	    </form:form>
 	</div><!-- /.modal -->

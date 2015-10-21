@@ -6,7 +6,8 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
  <c:if  test="${!empty resourceList}">
 	<div class="row">
-		<form action="${baseURL}/manager/sentence/${sentenceId}/sort_resource" method="post">
+		<c:url var="url" value="/manager/sentence/${sentenceId}/sort_resource"/>
+		<form action="${url}" method="post">
 	 	<div class="panel panel-default">
 	 		
 	  			<div class="panel-heading">
@@ -21,6 +22,7 @@
 			        </c:forEach>
 				</div>
 				<div class="panel-footer">
+					<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 		        	<button type="submit" class="btn btn-primary">Save changes</button>
 		        </div>
 		</div>

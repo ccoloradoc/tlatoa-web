@@ -8,9 +8,10 @@
 	<div class="row">
 	 	<div class="panel panel-default">
 	  			<div class="panel-heading">
-	  				<h3 class="panel-title">Systems</h3>
+	  				<h3 class="panel-title">Systems Administration</h3>
 				</div>
 	  			<div class="panel-body">
+	  				<p>Here you add any system for roles administration</p>
 				    <table class="table table-bordered table-striped">
 				        <thead>
 					        <tr>
@@ -26,7 +27,6 @@
 					                <td>${system.systemName}</td>
 					                <td>
 					                	<ol class="breadcrumb">
-					                		<li><a href="system/${system.systemId}">Edit</a></li>
 										  <li><a href="system/${system.systemId}/role">Roles</a></li>
 										  <li><a href="system/${system.systemId}/access_level">Access Level</a></li>
 										</ol>

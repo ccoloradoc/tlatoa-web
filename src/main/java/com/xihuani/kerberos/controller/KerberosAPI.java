@@ -14,7 +14,7 @@ import com.xihuani.kerberos.model.User;
 import com.xihuani.kerberos.service.UserService;
 
 @Controller
-@RequestMapping("api")
+@RequestMapping("kerberos/api")
 public class KerberosAPI {
 
 	@Autowired
