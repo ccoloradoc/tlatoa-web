@@ -123,7 +123,7 @@
         <dependency>
             <groupId>com.github.jsimone</groupId>
             <artifactId>webapp-runner</artifactId>
-            <version>7.0.34.0</version>
+            <version>7.0.57.2</version>
             <scope>provided</scope>
         </dependency>
         <!-- Spring Security -->
@@ -174,7 +174,7 @@
                                 <artifactItem>
                                     <groupId>com.github.jsimone</groupId>
                                     <artifactId>webapp-runner</artifactId>
-                                    <version>7.0.34.0</version>
+                                    <version>7.0.57.2</version>
                                     <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
