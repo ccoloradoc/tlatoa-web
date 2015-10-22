@@ -16,7 +16,8 @@
     <mvc:annotation-driven/>
 
 	<mvc:resources mapping="/resources/**" location="/static/public/" />
-
+	<mvc:annotation-driven/>
+	
 	<bean id="jsonHttpMessageConverter"
 	    class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
 	
