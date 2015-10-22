@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <img src="./resources/img/logo.png">
+                        <img src="<c:url value="/resources/xihuani/img/logo.png"/>">
                         <h1 style="font-family: danube; font-size: 50px; margin-top: 10px;">Tlatoa</h1>
                         <h2>Aprende, comparte, sueña</h2>
                         <h3>Tlatoa es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva.</h3>
@@ -62,17 +62,17 @@
             </div><!-- /row -->
             <div class="row content-row">
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_splash.png"/>" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/xihuani/img/tlatoa_splash.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Regístrate</h2>
                     <h4 class="font-thin">Usa tu cuenta de facebook para acceder a la aplicación</h4>
                 </div><!-- /col12 -->
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_listen.png"/>" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/xihuani/img/tlatoa_listen.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Tlatoa te escucha</h2>
                     <h4 class="font-thin">La aplicación escucha la frase que necesitas.</h4>
                 </div><!-- /col12 -->
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_translate.png"/>" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/xihuani/img/tlatoa_translate.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Traduce</h2>
                     <h4 class="font-thin">Observa la traducción propuesta por la aplicación.</h4>
                 </div><!-- /col12 -->

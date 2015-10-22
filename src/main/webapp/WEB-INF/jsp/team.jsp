@@ -49,21 +49,21 @@
             <div class="row content-row">
                 <div class="col-xs-6 col-md-4">
 				    <a href="https://medium.com/@lalongooo" target="_blank" class="thumbnail">
-				      <img src="./resources/img/jorge_gray.jpg" alt="...">
+				      <img src="./resources/xihuani/img/jorge_gray.jpg" alt="...">
 				    </a>
 				    <h3>Jorge Hernandez</h3>
 				    <h4>Android Developer</h4>
 				</div>
 				<div class="col-xs-6 col-md-4">
 				    <a href="http://cristiancolorado.com" target="_blank" class="thumbnail">
-				      <img src="./resources/img/cristian_gray.jpg" alt="...">
+				      <img src="./resources/xihuani/img/cristian_gray.jpg" alt="...">
 				    </a>
 				    <h3>Cristian Colorado</h3>
 				    <h4>Java Developer</h4>
 				</div>
 				<div class="col-xs-6 col-md-4">
 				    <a href="#"  target="_blank" class="thumbnail">
-				      <img src="./resources/img/kres_gray.jpg" alt="...">
+				      <img src="./resources/xihuani/img/kres_gray.jpg" alt="...">
 				    </a>
 				    <h3>Krez Cruz</h3>
 				    <h4>Designer</h4>
