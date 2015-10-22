@@ -118,7 +118,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>3.6.10.Final</version>
+            <version>4.2.20.Final</version>
         </dependency>
         <dependency>
             <groupId>com.github.jsimone</groupId>
