@@ -47,7 +47,6 @@ public class KerberosController {
 	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
     public String register(Map<String, Object> map) {
-		
 		map.put("user", new User());
 		return Constants.View.KERBEROS_REGISTER_JSP;
     }

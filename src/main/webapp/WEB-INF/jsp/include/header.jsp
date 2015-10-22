@@ -18,6 +18,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                	<li><a href="<c:url value="/" />">Home</a></li>
                 	<li><a href="<c:url value="/team" />">Team</a></li>
                 	<!-- li><a href="<c:url value="/status" />">Status</a></li-->
                     <sec:authorize access="isAnonymous()">
