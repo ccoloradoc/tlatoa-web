@@ -62,17 +62,17 @@
             </div><!-- /row -->
             <div class="row content-row">
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_splash.png" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_splash.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Regístrate</h2>
                     <h4 class="font-thin">Usa tu cuenta de facebook para acceder a la aplicación</h4>
                 </div><!-- /col12 -->
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_listen.png" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_listen.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Tlatoa te escucha</h2>
                     <h4 class="font-thin">La aplicación escucha la frase que necesitas.</h4>
                 </div><!-- /col12 -->
                 <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_translate.png" alt="..." class="img-thumbnail"></p>
+                    <p class="home-hover"><img src="<c:url value="/resources/img/tlatoa_translate.png"/>" alt="..." class="img-thumbnail"></p>
                     <h2 class="font-thin">Traduce</h2>
                     <h4 class="font-thin">Observa la traducción propuesta por la aplicación.</h4>
                 </div><!-- /col12 -->
