@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand logo" href="<c:url value="/"/>">
-                    <img src="resources/xihuani/img/logo.png"> &nbsp; Tlatoa
+                    <img src="<c:url value="/resources/xihuani/img/logo.png" />"> &nbsp; Tlatoa
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->

@@ -15,8 +15,8 @@
     <context:component-scan base-package="com.xihuani" />
     <mvc:annotation-driven/>
 
-	<mvc:resources mapping="/resources/**" location="/static/public/" />
-	<mvc:annotation-driven/>
+	<mvc:resources mapping="/resources/**" location="/WEB-INF/static/public/" cache-period="31556926" />
+	<mvc:default-servlet-handler /> 
 	
 	<bean id="jsonHttpMessageConverter"
 	    class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />

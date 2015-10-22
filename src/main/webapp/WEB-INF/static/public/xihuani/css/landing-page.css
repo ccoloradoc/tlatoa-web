@@ -1,0 +1,326 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    z-index: -10;
+    position: relative;
+}
+
+.intro-header-overlay {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(255, 77, 0, 0.3);
+	z-index: -5;		
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    background-color: #FF4D00;
+    color: #FFFFFF;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.content-section-a i {
+	color: #FF4D00;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+footer.fixed {
+	position: absolute;
+	width: 100%;
+	bottom: 0;		
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+/**/
+@font-face {
+  font-family: 'danube';
+  src: url('../fonts/danube/DANUB___.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/danube/DANUB___.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/danube/DANUB___.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/danube/DANUB___.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/danube/DANUB___.TTF')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/danube/DANUB___.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.logo img {
+    display: inline;
+    width: 15%;
+}
+
+.logo {
+    font-family: danube;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    padding: 10px 10px;
+}
+
+
+    .title-row {
+        font-size: 45px;
+        padding-bottom: 50px;
+    }
+    
+    .line-row .hr {
+        background-color: #e4e6e5;
+        height: 5px;
+        margin: 0 auto;
+        width: 33%;
+    }
+    
+    .subtitle-row {
+        font-size: 35px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    
+    .content-row {
+        padding-top: 45px;
+    }
+    
+    .content-row i,
+    #about-row-5 i {
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .content-row h2 {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    
+    .content-row h4 {
+        font-family: "Amaranth", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    i {
+        font-size: 80px;
+        color: white;
+    }
+    
+
+@media (max-width: 767px) {
+    .title-row {
+        font-size: 34px;
+        padding-bottom: 33px;
+    }
+    
+    .subtitle-row {
+        font-size: 26px;
+        padding-bottom: 26px;
+        padding-top: 26px;
+    }
+    
+    .content-row {
+        padding-top: 29px;
+    }
+    
+    .content-row h2 {
+        font-size: 24px;
+        padding-bottom: 26px;
+    }
+    
+    .content-row h4 {
+        font-size: 20px;
+    }
+}
+
+
+p.home-hover {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-form {
+	margin: 100px 0px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+p.back {
+	text-align: right;
+}
+
+.panel.panel-default {
+	margin-top: 10px;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+.footer-push {
+	height: 150px;
+}
