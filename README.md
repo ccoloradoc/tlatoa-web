@@ -24,6 +24,8 @@ Es necesario instalar una base de datos local de postgress y proveer de los deta
 
 Esta variable del sistema será decodificado durante la inicialización de la aplicación mediante una instancia de java.net.URI y usada para la inicialización de nuestra EntityManager. Ver applicationContext.xml.
 
+Finalmente necesitas correr los scripts de schema y startup que se encuentran en el folder db.
+
 ###Setup application
 
 Baja el código fuente:
