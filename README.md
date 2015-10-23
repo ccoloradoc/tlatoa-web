@@ -1,6 +1,6 @@
 # Tlatoa
 
-Tlatoa es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva. Tlatoa es un proyecto emprendedor desarrollado durante 2013 para participar en Apporta, concurso a cargo del Consejo de Software de Nuevo León, México. Quedando entre los finalistas de la convocatoria 2013.
+[Tlatoa](www.tlatoa.co) es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva. Tlatoa es un proyecto emprendedor desarrollado durante 2013 para participar en Apporta, concurso a cargo del Consejo de Software de Nuevo León, México. Quedando entre los finalistas de la convocatoria 2013.
 
 Actualmente tlatoa se encuentra en pausa en busca de inversión para completar el desarrollo de un segundo prototipo.
 
@@ -24,7 +24,7 @@ Es necesario instalar una base de datos local de postgress y proveer de los deta
 
 Esta variable del sistema será decodificado durante la inicialización de la aplicación mediante una instancia de java.net.URI y usada para la inicialización de nuestra EntityManager. Ver applicationContext.xml.
 
-###Setup aplicacion
+###Setup application
 
 Baja el código fuente:
 
@@ -49,7 +49,9 @@ Para lograr este objetivo se plantea la necesidad de realizar las siguientes mod
 
 Enhancement  | Description
 ------------ | -------------
-1  | File Storage: Implementar un mecanismo de almacenamiento de archivos con el objetivo de asegurar la integridad del repositorio de recursos que constituyen la traducción.
-2  | Content Regulation: Establecer un mecanismo de evaluación y reporte de recursos para evitar uso inapropiado de plataforma mediante material no adecuado.
+1  | *File Storage*: Implementar un mecanismo de almacenamiento de archivos con el objetivo de asegurar la integridad del repositorio de recursos que constituyen la traducción.
+2  | *Content Regulation*: Establecer un mecanismo de evaluación y reporte de recursos para evitar uso inapropiado de plataforma mediante material no adecuado.
 
+##Colaboración
 
+Si deseas colaborar con este proyecto puedes contactar a sus administradores a traves de su informacion de contacto [aqui](www.tlatoa.co/team).
