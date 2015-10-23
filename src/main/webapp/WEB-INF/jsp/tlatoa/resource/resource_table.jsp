@@ -37,6 +37,7 @@
 					        </c:forEach>
 				        </tbody>
 				    </table>
+				    <p class="back"><a href="<c:url value="/manager/sentence"/>">Go back</a></p>
 				</div>
 		</div>
 	</div>
