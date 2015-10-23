@@ -22,30 +22,19 @@
         <div class="container">
             <div class="row title-row">
                 <div class="col-12 font-thin">
-                    Como funciona?
+                    Futuro
                 </div>
             </div><!-- /row -->
             <div class="row line-row">
                 <div class="hr">&nbsp;</div>
             </div><!-- /row -->
             <div class="row subtitle-row">
-                <div class="col-12 font-thin">Tlatoa es una aplicación móvil disponible para Android, cuyo funcionamiento sencillo permite un primer acercamiento a lenguaje de señas:  </div>
+                <div class="col-12 font-thin">Cerrando la brecha</div>
             </div><!-- /row -->
             <div class="row content-row">
-                <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_splash.png" alt="..." class="img-thumbnail"></p>
-                    <h2 class="font-thin">Regístrate</h2>
-                    <h4 class="font-thin">Usa tu cuenta de facebook para acceder a la aplicación</h4>
-                </div><!-- /col12 -->
-                <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_listen.png" alt="..." class="img-thumbnail"></p>
-                    <h2 class="font-thin">Tlatoa te escucha</h2>
-                    <h4 class="font-thin">La aplicación escucha la frase que necesitas.</h4>
-                </div><!-- /col12 -->
-                <div class="col-12 col-lg-4 col-sm-4">
-                    <p class="home-hover"><img src="./resources/img/tlatoa_translate.png" alt="..." class="img-thumbnail"></p>
-                    <h2 class="font-thin">Traduce</h2>
-                    <h4 class="font-thin">Observa la traducción propuesta por la aplicación.</h4>
+                <div class="col-12 col-lg-12 col-sm-12">
+                    <p>Actualmente se ha liberado el portal web para incentivar la colaboración por parte de emprendedores mexicanos, de esta manera se intenta crear una versión 2.0 que permita hacer uso del concepto de <strong>"crowdsourcing"</strong> para establecer un diccionario de frases y traducciones que permita tener una aplicación funcional.</p>
+                    <p>De esta manera se pretende que la comunidad provea de un diccionario de frases y su traducción(imágenes), a la vez que se regula la calidad del contenido.</p>
                 </div><!-- /col12 -->
             </div><!-- /row -->
         </div>
@@ -59,29 +48,37 @@
         <div class="container">
             <div class="row title-row">
                 <div class="col-12 font-thin">
-                    Cerrando la brecha
+                    Colabora
                 </div>
             </div><!-- /row -->
             <div class="row line-row">
                 <div class="hr">&nbsp;</div>
             </div><!-- /row -->
             <div class="row subtitle-row">
-                <div class="col-12 font-thin">En México hay 694,464 personas tienen una limitación para oír y 477,104 presentan una limitación para hablar o comunicarse. Instituciones publicas realizan un esfuerzo por capacitar a sus servidores públicos con conocimientos de lenguaje a señas, sin embargo aun es deficiente.</div>
+                <div class="col-12 font-thin">Para lograr este objetivo se plantea la necesidad de realizar las siguientes modificaciones:</div>
             </div><!-- /row -->
             <div class="row content-row">
-                <div class="col-12 col-lg-7 col-sm-7">
-                   <iframe src="//www.slideshare.net/slideshow/embed_code/28464890" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cristiancolorado/tlatoa-presentacion-para-apporta-2013" title="Tlatoa - Presentacion para Apporta 2013" target="_blank">Tlatoa - Presentacion para Apporta 2013</a> </strong> from <strong><a href="//www.slideshare.net/cristiancolorado" target="_blank">Xihuani Code</a></strong> </div>
-                </div><!-- /col12 -->
-                <div class="col-12 col-lg-5 col-sm-5">
-                    <h3 class="font-thin">Tlatoa es un proyecto emprendedor desarrollado durante 2013 para participar en <a href="http://apporta2014.com/">Apporta</a>, concurso a cargo del Consejo de Software de Nuevo León, México. Quedando entre los finalistas de la convocatoria 2013.</h3>
-                    <h3>Actualmente tlatoa se encuentra en pausa en busca de inversión para completar el desarrollo de un segundo prototipo.</h3>
+                <div class="col-12 col-lg-12 col-sm-12">
+                    <table class="table table-bordered">
+                    	<thead>
+							<tr>
+								<th>Enhancement</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td><em>File Storage</em>: Implementar un mecanismo de almacenamiento de archivos con el objetivo de asegurar la integridad del repositorio de recursos que constituyen la traducción.</td>
+								</tr>
+								<tr>
+								<td>2</td>
+								<td><em>Content Regulation</em>: Establecer un mecanismo de evaluación y reporte de recursos para evitar uso inapropiado de plataforma mediante material no adecuado.</td>
+							</tr>
+						</tbody>
+					</table>
                 </div><!-- /col12 -->
             </div><!-- /row -->
-            <div class="row content-row">
-                <div class="col-12 col-lg-10 col-sm-10">
-                      
-                </div>
-            </div>
         </div>
         <!-- /.container -->
 
@@ -93,7 +90,7 @@
         <div class="container">
             <div class="row title-row">
                 <div class="col-12 font-thin">
-                    Estamos esperando tus comentarios:
+                    Si deseas colaborar con este proyecto puedes contactarnos:
                 </div>
             </div><!-- /row -->
             <div class="row line-row">
