@@ -1,6 +1,6 @@
 # Tlatoa
 
-[Tlatoa](www.tlatoa.co) es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva. Tlatoa es un proyecto emprendedor desarrollado durante 2013 para participar en Apporta, concurso a cargo del Consejo de Software de Nuevo León, México. Quedando entre los finalistas de la convocatoria 2013.
+[Tlatoa](http://www.tlatoa.co) es una aplicación cuyo objetivo es cerrar la brecha entre instituciones públicas y personas con discapacidad auditiva. Tlatoa es un proyecto emprendedor desarrollado durante 2013 para participar en Apporta, concurso a cargo del Consejo de Software de Nuevo León, México. Quedando entre los finalistas de la convocatoria 2013.
 
 Actualmente tlatoa se encuentra en pausa en busca de inversión para completar el desarrollo de un segundo prototipo.
 
@@ -54,4 +54,4 @@ Enhancement  | Description
 
 ##Colaboración
 
-Si deseas colaborar con este proyecto puedes contactar a sus administradores a traves de su informacion de contacto [aqui](www.tlatoa.co/team).
+Si deseas colaborar con este proyecto puedes contactar a sus administradores a traves de su informacion de contacto [aqui](http://www.tlatoa.co/team).
